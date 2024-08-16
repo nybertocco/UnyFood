@@ -1,0 +1,25 @@
+.card-category-container {
+    display: flex;
+    border-radius: 5px;
+}
+
+.card-category-container .content {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-category-container .content p {
+    color: #fff;
+    font-weight: 700;
+}
+
+.card-category-container .content button {
+    margin-top: 20px;
+    background: rgba(0, 0 , 0, 0.1);
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
